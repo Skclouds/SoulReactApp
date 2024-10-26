@@ -1,0 +1,50 @@
+.reviewContainer {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+  }
+  
+  .reviewCard {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .reviewText {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .reviewAuthor {
+    display: flex;
+    align-items: center;
+  }
+  
+  .authorImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  .authorName {
+    font-size: 14px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  /* You might need to adjust these styles based on your actual HTML structure */
+  .FirstReview,
+  .SecondReview {
+    flex: 0 0 auto;
+  }
+  
+  /* Add this if you want to hide the horizontal scrollbar */
+  .reviewContainer::-webkit-scrollbar {
+    display: none;
+  }
